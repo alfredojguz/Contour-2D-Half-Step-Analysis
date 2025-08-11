@@ -1,0 +1,46 @@
+# Virtual environment
+venv/
+
+# Bytecode and cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment files and secrets
+.env
+*.env
+
+# Data and output files
+outputs/
+*.npy
+*.npz
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.bmp
+
+# Temporary or log files
+*.log
+*.tmp
+*.bak
+
+# IDE and editor folders
+.vscode/
+.idea/
+*.swp
+
+# TouchDesigner project files (cache & autosave)
+*.tox
+*.toe~
+*.toe.autosave
+backup/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows system files (just in case)
+Thumbs.db
+ehthumbs.db
