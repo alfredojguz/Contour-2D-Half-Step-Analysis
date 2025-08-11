@@ -10,15 +10,23 @@ __pycache__/
 .env
 *.env
 
+# Build/distribution
+build/
+dist/
+*.egg-info/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
 # Data and output files
 outputs/
-*.npy
-*.npz
-*.png
-*.jpg
-*.jpeg
-*.tif
-*.bmp
+outputs/*.npy
+outputs/*.npz
+outputs/*.png
+outputs/*.jpg
+outputs/*.jpeg
+outputs/*.tif
+outputs/*.bmp
 
 # Temporary or log files
 *.log
@@ -41,6 +49,6 @@ backup/
 .AppleDouble
 .LSOverride
 
-# Windows system files (just in case)
+# Windows system files
 Thumbs.db
 ehthumbs.db
